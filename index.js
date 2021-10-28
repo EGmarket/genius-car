@@ -77,6 +77,10 @@ app.get('/', (req, res)=>{
     res.send("Running Server")
 })
 
+app.get('/hello',(req,res)=>{
+    res.send('hello Update')
+})
+
 app.listen(port,()=>{
     console.log("listenig on port", port);
 })
