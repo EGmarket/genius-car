@@ -78,7 +78,7 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/hello',(req,res)=>{
-    res.send('hello Update')
+    res.send('hello Update from site')
 })
 
 app.listen(port,()=>{
